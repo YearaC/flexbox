@@ -1,0 +1,125 @@
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box{
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    color: white;
+}
+
+
+.eta{
+    margin-left: auto;
+}
+
+.etb{
+    margin-left: 10px;
+}
+
+.box-2{
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    color: white;
+}
+
+.상자-2{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.brown1{
+    align-self: flex-start;
+   
+}
+
+.brown2{
+    align-self: center;
+}
+
+.brown3{
+    align-self: flex-end;
+}
+
+.상자-3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+
+}
+
+.blue{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+.blue-1{
+    background-color: skyblue;
+    width: 150px;
+    height: 150px;
+    color: white;
+    position: absolute;
+    bottom: -125px;
+
+}
+
+.green{
+    background-color: forestgreen;
+    width: 200px;
+    height: 200px;
+    color: white;
+
+}
+
+.green-1{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+
+.grey{
+    background-color: grey;
+    width: 400px;
+    height: 150px;
+    color: white;
+    position: absolute;
+    right:0px;
+    bottom:-700px;
+}
+
+.black{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.black-left{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.black-right{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+*{
+    margin-left: 0px;
+}
+
